@@ -1,0 +1,856 @@
+Intorduction to Madkudu_How Marketing Uses MadKudu
+
+
+
+Madkudu's platform allows you to:
+
+send your sellers the right accounts and leads with AI scoring
+give your sellers playbooks that work, based on 1st party and 3rd party signals 
+provider your sellers with the right context to engage with prospects effectively 
+
+How it works:
+
+Plug in your data tech stack.
+Install the MadKudu package in Salesforce and download the Chrome extension
+Tweak your mappings and scoring models 
+Enable your sellers
+
+
+MadKudu ingests multiple sources of data to help you qualify your prospects and arm your sellers to engage with them
+
+Static enrichment: MadKudu partners with Clearbit, HG data, and PredictLeads to enrich your data. Are you already purchasing through ZoomInfo, Bombora, Datafox? No problem, MadKudu can also use this data. 
+CRM information: actually any data from your CRM (Leads, Contacts, Accounts, Opportunities), be it provided by a 3rd party or from your Marketing and Sales input, can be pulled to MadKudu's platform. 
+Product usage: Are you tracking your visitor and user behavior in your product? MadKudu has integrations for it as well to help you surface your most engaged users
+Marketing interactions: Your demand gen team is working hard on organizing webinars, events, and email campaigns to engage with prospects, and you are tracking these interactions in Marketo, Eloqua, HubSpot. Well, bring them into your scoring to add up to your product usage data and find your MQL/PQLs! 
+
+MadKudu Copilot
+Available directly embedded Salesforce, in our Chrome extension and soon in your favorite Sales Engagement (Gong Engage, Outreach, Salesloft..) 
+
+Playbooks & Explore: Assist sales reps in tailoring their approach based on prospects' activities and intent signals. With the Playbooks inbox, they stay focused on the best approach for their prospects. With Explore they can slice and dice their prospects based on different filters and save reports. Learn more
+Account & Lead Intelligence: Surface information your Sales team needs when engaging with prospects, directly in Salesforce. Learn more.
+
+MadKudu Scoring
+With MadKudu, qualify your prospects to send to Sales with AI scoring and directly in your CRM. 
+
+MadKudu ingests as much data as possible to predict the likelihood of a prospect to convert into a customer.
+
+Get full control of your scoring in the Data Studio, with insights on your Ideal Customer Profile and most important actions your prospects are taking. Learn more.
+
+MadKudu offers several models that fit different needs:
+
+Customer Fit: Looks at firmographics, demographics and technographic data to identify who from your Leads and Accounts are most likely to convert (Who is this person? Is the company they work for a good fit?)
+Likelihood to Buy: Looks at any interaction with your website, product, marketing team, sales team to identify patterns of your Leads and Accounts behaviors that lead to conversions. (What has this lead been doing recently?)
+Lead Grade: Combines the Customer Fit and Likelihood to Buy into one score to help you simplify your workflows
+
+We configure these models independently so if you’re not sure which ones are enabled in your account, reach out to your Customer Success Manager.
+
+F.A.Q 
+How does MadKudu look like once implemented?
+Just follow this link and you'll see!
+
+How do I start sending data?
+We have dozens of integrations with best-in class systems like Segment, Salesforce, Hubspot, Marketo, Snowflake, BigQuery...etc. You can enable these by the click of a button. Learn more about our integrations 
+
+Start by creating an account at app.madkudu.com
+Once logged in, the left navigation menu, click on the Integrations icon. The next screen will show you a list of all available integrations. To enable one, click on it and follow the instructions.
+
+This article is intended to be used by the marketer who wants to see the quality of their inbound leads by channel and by campaign.  (Report implementation instructions are available to download, see link at bottom of this article).
+
+The Marketer’s Dilemma
+Potentially Burning Marketing Budget
+
+“I spend on an acquisition channel, but it takes the length of the sales cycle to see if the channel is valuable enough to keep investing in.”
+
+The Madkudu Way
+Smart Insights, Less Waiting, Accurate Decisions
+
+“Accurately assess the performance of acquisition channels quickly”
+
+Why is this relevant?
+Use your MadKudu Customer Fit score to assess the quality of leads per channel and adjust spend accordingly
+
+Your Madkudu customer fit score is an indicator of your expected pipeline. Use it to determine the quality per channel and optimize your marketing spend per channel.
+
+Generating high quality leads that aren’t converting?  Use this as an input to nurture your campaigns and walk those valuable leads further down the funnel.
+
+Bet big on the channels that drive quality leads, stop wasting money on channels that don’t.
+
+Assessing Response Quality By Channel
+
+Discriminate between channels generating mostly low (Free Rates) vs mostly high (Whitepaper) quality leads.
+
+
+Compare volumes and cost of acquisition to determine whether it makes sense to move your marketing budget from one channel to another. If the cost of acquisition for a quality lead from Free Rates happens to be 10X less that the cost of acquisition for Whitepaper - then it would make sense to generate those Free Rate quality leads, and nurture them.
+
+
+Compare volumes and cost of acquisition to determine whether it makes sense to move your marketing budget from one channel to another. If the cost of acquisition for a quality lead from Free Rates happens to be 10X less that the cost of acquisition for Whitepaper - then it would make sense to generate those Free Rate quality leads, and nurture them.
+
+
+Response Quality By Channel Over Time
+
+As Marketers, we want to understand if the quality of leads per channel evolves over time.  In this example, we see that the volume of quality leads maintains, and even increases slightly.
+
+Therefore we would expect to see performance increase marginally (increase of leads to closed won by this channel).  If we allocate additional budget spend to this channel, we would also want to see an increase in the lead to deal ratio. 
+
+ 
+In this next example, we see that the volume of quality leads drastically decreases.
+
+However, the revenue generated by the channel may still remain consistent, if the number of quality leads is maintained.  If we spend more on this channel, and there is no increase in quality leads which convert to deals, we will reduce the ROI for this channel, despite the revenue remaining the same.
+
+Customer Fit model
+
+In many organizations, 50% of sales energy is spent on prospects who never convert. What if you could predict which leads are most likely to pay for what you are selling? This is what MadKudu’s customer fit model is here to help with.
+
+Introduction
+MadKudu’s customer fit models automatically looks at your leads and identify those who are a good fit to buy from you.
+
+This analysis is based on traits coming from different data sources:
+
+Firmographic data, eg. Company size, industry, location
+Demographic data, eg. Job title
+Technographic data, eg. Tech stack
+MadKudu labels your leads with segments simple to understand and to act upon. The possible values are:
+
+Very Good
+Good
+Medium
+Low
+Leads with a “very good” customer fit usually convert about 10 times more than leads with a “low” customer fit.
+
+ 
+
+Main Use Cases
+Engaging Leads Quickly: By quickly identifying who are the leads with the most potential (customer fit is “good” or “very good”), your sales team can reach out to these VIPs much faster.
+Increasing Sales Efficiency: Keep low quality leads out of your funnel so that reps can spend their time where it matters.
+Better Marketing Performance: Instantly know whether your marketing campaigns are bringing good leads or noise.
+Improved outbound: You have a list of 25,000 leads? You’re going to an event with 1,000 attendees? Quickly figure out who you should talk to.
+Cleaning your CRM: Keep our your junk leads from getting into your CRM.
+Initial configuration
+For MadKudu Startup plan, the customer fit is an industry-specific model that scores every new lead based on aggregated trends.
+
+For MadKudu Growth and Pro plans, the customer fit model is trained against your existing paying customer database.
+It isolates signals that determine the likelihood of a lead to convert based on traits including:
+
+Company Size
+Company Industry
+Enterprise Technologies used (Marketo, Salesforce, Taleo, Adobe Omniture…)
+Retargeting Technologies used
+Technologies (amount, type…)
+Company Geo-economics (GDP, language…)
+Company Tags (B2B, SaaS…)
+Company financials (funding, growth, market value…)
+Job title (seniority, department)
+Using its historical training, the model will then score any new identified lead or user based on those signals.
+
+For MadKudu Pro and Ent API plans, you can also send us a training data set via CSV using the following template.
+
+ 
+
+What are the default signals
+personal email address
+spam
+fortune 500
+firmographics profile
+potentially spam
+education
+employee count
+number of employees
+team email
+nonprofit
+test email
+market cap
+capital raised
+web traffic volume
+based in a country where GDP per capita
+enterprise tech found on website
+belongs to industry where revenue per employee
+number of tech found on website
+twitter followers
+company founding year
+
+Customer Fit: How MadKudu uses CRM data in the scoring
+
+MadKudu helps you remove barriers between your siloed sources of data to help you segment and target your highest-value prospects. 
+
+How does the scoring work? What data points are used and when? How does MadKudu reconcile different enrichment points to one person or one company? We hope this article will answer these questions.
+
+Lead and Contact Fit scoring
+MadKudu turns an email into a full person and company profile in order to predict if this person is a good fit for your product. 
+
+Real time scoring
+Any new Lead or Contact is scored in real-time by the MadKudu API 10-15 minutes after they are created in Salesforce by your workflow.
+Leads and Contacts are scored in real-time based on:
+the standard Salesforce field email
+the enrichment MadKudu has on this email from our own sources. Learn more
+any enrichment you may already have in your Salesforce about this email or domain (MadKudu is able to cache information from your Salesforce records in real time based on their email and domain) and use it in the Customer Fit model.
+If this email is not known from Salesforce yet, then only MadKudu enrichment would be used. 
+If the email field is empty, MadKudu won't be able to score this record.
+Batch scoring
+Then in batch, MadKudu updates the score with additional enrichment available on the Lead and Contact record in your Salesforce.  
+Example
+
+john@acme.com downloads some content on your website and has provided the information on your sign up form that he is a CPO working with a team of 10. You don't know John, nor Acme, yet in your Salesforce. Your workflow now creates a Lead for John in Salesforce.
+MadKudu scores this Lead "75, good" within 15 min after its creation, based only on the enrichment MadKudu has from our vendors.
+The information title = CPO and team size = 10 is passed to Salesforce by your workflow. 
+Within 4-12hours, MadKudu will update the score of the Lead with additional information on his title and his team size (at the next Sync process) 
+MadKudu now scores this "Lead 85, very good".
+If there is any change from the MadKudu enrichment or your CRM enrichment, then the score would reflect this change within 4-12hours (at the next Sync process) from when it is used in the model.
+How does MadKudu use CRM Account attributes to score Emails?
+mceclip0.png
+
+Account Fit scoring
+MadKudu turns a domain into a full person and company profile to predict if this company is a good fit for your product. 
+
+Batch scoring
+When the Account is created, MadKudu scores the record in batch within 4-8 hours of its creation based on:
+the standard Salesforce field website.
+the enrichment MadKudu has on this domain from our own sources.
+enrichment available on this Account in your Salesforce.
+MadKudu scores accounts only in Batch (NOT in real time).
+If this website field is empty, MadKudu won't be able to score this record and you would see a null score.
+Example
+
+You have added to Salesforce the Account acme.com with no other data point.
+MadKudu scores this Account "81, good" within 4-8h after its creation, based on the enrichment MadKudu has from our vendors and the information present on the Account record (in this case, none).
+Your team now marks this account as "target account" by flagging it through your custom field is_target_account__c = 'true'
+MadKudu will update the score of the Account within 4-8h, let's say now to "95, very good" because this field is_target_account__c is used in the model to boost target account.
+If there is any change from the MadKudu enrichment or your CRM enrichment, then the score would reflect this change within 4-8hours from when it is used in the model.
+MadKudu only uses certain data points, not all of them in your CRM.
+MadKudu only uses certain data points from our sources and your CRM to score the Lead or Contact. This selection is done when building the model when our team looks at which data points would be relevant and would have a value to include in the model. We can add more data points in the model or as overrides. For that, we would assess the need and possible incremental value to add these data points.
+
+How to know which attributes from my CRM are used in a model?
+To see the list of data points used in your Customer Fit model, please refer to:
+
+the Attribute mapping in app.madkudu.com > Mapping > Attribute mapping will tell you which fields are specifically mapped from your CRM and potentially used in the model*. Learn more about Attribute mapping.
+
+*Note: not all fields mapped in the Attribute mapping are used directly in the model. They may have been mapped to understand their impact on conversion in the data science studio but not necessarily relevant to use in the scoring model. 
+
+the Computations page in the Data Studio https://studio.madkudu.com/  has computations marked as "LIVE" meaning they are used in the customer fit scoring. Learn more about Computations. 
+
+or get in contact with our support team by opening a ticket here to help you figure that out.
+
+F.A.Q
+How often are the scores updated?
+Within 15min of the Lead or Contact creation and then updated 4-12 hours (at the next Sync process) later with additional data points from your CRM. Please refer to this article: https://support.madkudu.com/hc/en-us/articles/360036910411-How-long-does-it-take-to-score-a-lead-
+For any change of the enrichment data points used in your model
+[Salesforce] What happens when a lead is converted into a contact?
+When a lead gets converted into a contact, MadKudu will automatically score the contact with the same attributes as the lead + any new attribute on the contact. When a SFDC Lead is converted to a Contact, the originating Lead object is locked and no further updates are permitted - this is by SFDC design.
+What data does MadKudu use if the Lead and Contact have different enrichment?
+MadKudu would gather all possible data points from all records with the same email and take the MAX(field). This allows us to capture all non empty values. For edge cases where the enrichment differs for non numeric fields, the limitation of this methodology is that it takes the latest value in alphabetic order. We understand this is not ideal but recommend to resolve discrepancies by updating to the correct enrichment or deleting the incorrect enrichment.
+What data does MadKudu use if I have 2 different Accounts with different enrichment?
+The customer fit model scores people and companies based on who they are, their "DNA" to understand if they are intrinsically a good fit for your product. Therefore differences of enrichment for 1 same email or 1 same domain in your CRM would most likely come from duplicated records and we recommend resolving these duplicates or enrichment discrepancies to make sure the score would be more accurate.
+When there are 2 accounts with different enrichment we take the MAX(field) (please see the answer right above)
+How does MadKudu select which data to use in priority when there are multiple sources of enrichment?
+By default, we use the MadKudu enrichment in priority and if empty we then use data from your CRM. Some companies have less trust in their own enrichment than the MadKudu enrichment when data is manually inputted by their team and prefer this prioritization. If you would prefer to prioritize the enrichment of your CRM over MadKudu's enrichment, this is something that can be changed to fit your need and we'll be happy to assist. Please open a ticket here for assistance.
+
+Likelihood to buy
+
+
+Have you ever dreamed about sending your leads to Sales when they’re really active within your app? By using your in-app data, we’ll tell you exactly when your leads are engaged with your product so that you can talk to them when it’s the most relevant time.
+
+Doing so ensures that you always talk to your leads at the right time.
+
+Introduction
+MadKudu’s likelihood to buy model learns from historical patterns of specific behaviors to uncover which individual leads are on the path to conversion compared to others.
+
+MadKudu continuously scores all your active leads based on their behavior (in-app behaviors, marketing & sales interactions, etc.) to determine which are on the verge of closing.
+
+MadKudu labels your leads with segments that are simple to understand and to act upon. The possible values are:
+
+Very High: Power Users
+High: Active Users
+Medium: Occasional, reactivated or newbie users
+Low: Phantoms, zombies, at-risk, slipping away or one and done users
+Main Use Cases
+Better routing: Send Leads who are ready to convert straight to sales.
+Prioritizing sale’s actions: Your reps prioritize their time based on who is most active in your product.
+Better marketing campaigns: Send different offers based on user’s engagements. Send product video to those who didn’t engage at all and send advanced content to those who really engaged.
+How is it computed?
+We analyze your behavioral data to discover key conversion events
+We score leads based on the sum of all their activities in the last 3 months 
+We identify usage thresholds leading to conversions (“created 4 projects”)
+Learn more about how the Likelihood to Buy score calculation. 
+
+F.A.Q.
+Will the scores be updated over time?
+
+The scores are constantly updated depending on the behaviour of the user. If we find that a power user with a “high” likelihood to buy changes to an occasional user with a “medium” likelihood to buy in the next month, this means that the user has stopped being active.
+
+Scores will gradually decay over time to ensure that the scores accurately depict a customer’s behavior at that point of time. This is what we call time decay.
+
+It can even be interesting to reach out to people whose score are decreasing to let them know you’re here to help.
+
+How often do you update scores?
+
+We update scores every 4-12 hours because we need to let users play around with your product before we can aggregate the data.
+
+How does the account level behavior impact lead level scores?
+
+If an account is highly active (lots of new leads being captured), this will impact the likelihood to buy of all leads rolling up to that account. The most recent and most active leads will still have a higher score but all leads from the account will be bumped up
+
+
+What type of events can be used in a behavioral model?
+
+A Behavioral segmentation — or Likelihood to Buy model — is the one that ingests behavioral data (in-app usage, website activity, marketing campaigns, etc.) of users/visitors to measure the engagement of the lead (i.e. has the lead tried to engage with you?). Because the input of the model uses behavioral data, the scores are recomputed several times throughout the day to reflect as much as possible the level of intent of the lead at a certain time.
+
+How is the Likelihood to Buy score built?
+Essentially the score is built on "Active events" which are triggered when the lead has taken an action (e.g. connected to their account, added users to the account, opened email, visited a web page, registered to a webinar, filled out a form ....) and we ignore any "Passive event" (e.g. received an email or invitation and didn't take action, system events fired such as "enrichment"). In addition, the score is also degraded by "Negative events" that suggest the person is not interested (e.g. requests to unsubscribe, bounced emails).
+
+How will the Likelihood to Buy score evolve?
+The score will be updated in batch every 4-12 hours with any new activity.
+
+The score will decrease over time to differentiate the people who recently showed activity or requested a demo versus the ones who did it 6 months ago. We usually apply a time decay of 90 days, meaning the score will return to 0 if there was no event logged for this person in the previous 3 months.
+
+What Behavioral data points can be used?
+The idea is to catch events which are most likely leading to a conversion and reflecting intent. It means identifying what events will distinguish a "hot" lead from a lead just surfing the web or vaguely curious of your product.
+
+The list of activities below is given as example and is not exhaustive. In addition, not all events below are necessary, as it depends on what you would like the Likelihood to Buy score to reflect the most and on data availability.
+
+App Usage
+This is highly specific to your product and what main events you are tracking.
+Examples:
+
+New user added / deleted
+Account deactivated
+Core product action
+Created project
+Web Activity
+Examples: 
+Demo request / contact us form submission
+Sign up for free account
+Chatbot conversation
+Watched demo
+Webpages viewed : home page, pricing page, features page, blog, forum, case studies, partners, blog pages
+Marketing Activity
+Examples:
+Webinar registration, attendance
+Conference / event registration, attendance
+eBook, case study or Whitepaper downloads
+Signup for newsletter
+Email Activity 
+Examples: 
+Marketing emails opened, clicked, replied
+Email bounced (hard or soft)
+Unsubscribe request
+Sales Activity 
+Examples 
+Call scheduled / attended / cancelled
+If you are sending all of your data, we will need to understand:
+
+how you link those events to a lead (email address)
+if this link and tracking is reliable
+which events are post- or pre-conversion 
+which events are non-user activity (technical process triggered like enrichment_provider, data_submitted, etc.) 
+We have worked in the past with the following integrations:
+Segment
+Marketo
+Salesforce campaigns responses
+Salesforce tasks
+Eloqua
+Hubspot
+Amplitude
+Stripe
+Kissmetrics
+... and some more
+How does behavioral data look like? 
+
+Example: 
+
+From Segment's track object we get: 
+
+the event id, the event name, the contact id, the event timestamp 
+From Salesforce Campaigns we get:
+
+the campaign type, the campaign member status, the lead/contact id and campaign member created date 
+
+ou'd like to know what you are getting into to build a Likelihood to Buy model with MadKudu? 
+Well, you're on the right page. 
+
+First, you may want to look at these articles to understand
+
+what is the Likelihood to Buy model
+what is behavioral data
+To implement this model and start pushing scores in your CRM to help you surface your most engaged contacts and accounts, we'll need to go through the following steps which include 
+
+Getting your behavioral data from your system
+Mapping the data into MadKudu standard format
+Building the model 
+Pushing the model to your CRM. 
+Step 1: [Pull] connect your system to MadKudu 
+Getting Behavioral data from your systems. 
+
+We have native integrations with 
+
+Segment
+Amplitude
+Mixpanel
+Kissmetrics
+Marketo
+Eloqua
+Salesforce Campaigns/Tasks 
+HubSpot forms
+Amazon S3 
+If you are storing your behavioral data in a data warehouse like Snowflake, Redshift, BiqQuery, or tracking your product usage in another tool like Heap, you can dump this data into an Amazon S3 bucket and share this bucket with us. Learn more about the Amazon S3 integration.
+
+Step 2: [Event Mapping] map all your behavioral data points
+The behavioral data from all your different systems is formatted into a unique and standard way, with user-friendly event names like "Signed Up", "Requested a demo".
+
+Our team will work with you to understand how the data tracked in your system corresponds to relevant actions performed by users valuable to include in the model. 
+
+What types of events to use in a behavioral model?
+Event mapping
+Step 3: [Model building] Build the Likelihood to buy model 
+We'll build for you the model in our Data Science Studio which you'll be able to edit yourself. 
+
+Introduction Data Science Studio: Likelihood to buy model 
+Building a model includes the following steps
+
+Create training and validation dataset
+Analyze which are the most important events 
+Adjust the weight and decay of each event to improve the performance 
+Review
+Deploy
+Step 4: [Push] Sync to your CRM
+Create fields in your CRM to receive the Likelihood to Buy scores following these instructions 
+Configure the sync to your CRM. MadKudu will set up this sync upon your confirmation.
+
+
+Lead Grade
+
+Pre-requisite
+Product available to customers on a Pro plan or more
+Introduction
+The Lead Grade is the combination of the Customer Fit and the Likelihood to Buy of a person in your CRM. It enables your team to surface the most qualified and active people in your database with just one metric. This means the Lead Grade represents a score based on both a person's firmographic/ demographic enrichment and their level of engagement. 
+
+ 
+
+The possible values of the Lead Grade are:
+
+A
+B
+C
+D
+E 
+Leads with an A-grade represent your most qualified and engaged prospects. 
+
+ 
+
+Main Use Cases
+Once you have prioritized your hand-raisers to your Sales team based on the Customer Fit, you may want to use the Lead Grade to route to Sales only the leads with the best combination of fit and engagement.  
+
+Learn more in this detailed article: https://www.madkudu.com/blog/one-lead-score-to-rule-them-all
+
+ 
+
+How is it computed?
+The Lead Grade is the result of a matrix combining Fit and Likelihood to Buy (LTB), which can be configured in the Data Studio. It is usually configured by default as follow:
+
+mceclip0.png
+
+ 
+This means that a Lead with a Very High LTB and a Very Good or Good Fit would be scored A, while a Lead with a Low LTB and Medium or Low Fit would be scored E. 
+ 
+The Lead Grade is first computed with this matrix. Then, for each Grade, a score is computed to distinguish within a same Grade leads with a higher Fit or a higher engagement for prioritization purposes. In other words, how do you know among all your grade A leads which ones should be prioritized to be sent to sales?
+ 
+There are several options:
+look at the Fit and the LTB separately. This means training your team on using 3 different scores/segments between the fit, the LTB and the lead grade. 
+look at the Lead Grade score 
+Each Grade (A, B, C, D or E) is associated with a score range:
+
+A : scores from 90 to 100
+B : scores from 75 to 89
+C : scores from 50 to 74
+D : scores from 25 to 49
+E : scores from  1 to 24
+The associated score of the lead is calculated based on a weighted average of the Fit and Likelihood to Buy (LTB). 
+
+For example, if the Lead Grade = 2x Fit + 1x LTB, this means that in within the grade A, leads with a very good Fit and high LTB will be scored higher than the leads with a good Fit but very high LTB. 
+
+This result of this formula allows you to distinguish between leads with the same grade that should be prioritized based on Fit or LTB. 
+
+ 
+
+F.A.Q
+Can I edit the definition of an A, B, C, D, E lead?
+Absolutely! You are able to edit the Lead Grade matrix yourself in our Data Studio.
+
+Account Fit Scoring with MadKudu
+
+The Account Fit model helps you identify your best accounts based on firmographic and technographic data. Whether you are starting a Sales outbound motion or looking to improve your account prioritization for ABM, this product is for you! 
+
+Prerequisites
+Use Salesforce as a CRM
+Currently, MadKudu can only push the Account Fit score to the Salesforce Account object. 
+The Account records must have a clean website or domain field available to score off of it.
+What is the Account Fit model for?
+Like many companies, you may have an account-level go-to-market motion. You need visibility on how good of a fit your target accounts are, and how good of a fit the accounts brought in through your inbound processes are.
+
+This account-level MadKudu Fit score can be critical to give you that extra edge over your competitors in paying more attention to the high-fit accounts. 
+
+Some uses cases for Marketing and Sales includes:
+
+Marketing campaign segmentation: identifying your best accounts to programmatically market in your ABM campaigns. 
+Sales cold inbound or outbound account prioritization: identifying which account to prioritize for research and outreach.
+ 
+
+What is the Account Fit model?
+The Account Fit model scores accounts based on the DNA of the company (firmographic and technographic data). MadKudu uses the domain of the account to perform identity resolution.
+
+The model learns from your past conversions to identify which accounts in your database look like your current or past customers. 
+
+ 
+
+What is the output of the Account Fit model? 
+The Account fit model is the same as the Customer Fit model but at the Account level. 
+
+It updates Accounts with a score from 0 to 100, segments from Low to Very good, and displays Signals as well to provide explainability and information to your Sales team.  
+
+How does the score of an account compare to the score of its contacts?
+For better maintainability and explainability of the Account Fit score, MadKudu recommends basing the Account scoring on the firmographic and technographic attributes of your Customer Fit model.
+
+Your Account score will be similar to its Contacts' scores, apart from the demographic attributes which impact only your person-level scores and not your company-level scores.
+
+MadKudu fields
+We currently push the following fields:
+
+Field Label	Field API Name
+MK Customer Fit Segment	mk_customer_fit_segment__c
+MK Customer Fit Score	mk_customer_fit_score__c
+MK Customer Fit Signals	mk_customer_fit_signals__c
+
+The Account scoring works in batch only (no real-time scoring) and would update scores of the accounts in the scoring audience if there is any new firmographic or technographic information at every Sync process (every 4h to 24h depending on the volume of data and numbers of models running on the MadKudu platform). This applies to newly created accounts as well -- they will get scored at the next Sync process.
+
+ 
+
+ 
+
+F.A.Q
+How does this differ from the Person level Customer Fit Model?
+Screenshot_2023-05-05_at_3.43.46_PM.png
+
+What is the pricing like?
+This will be an add-on to your MadKudu plan that includes a variable component according to your volume of leads. Contact your Customer Success Manager for more details.
+
+ 
+
+How to enable this?
+Submit a support ticket here to enable this add-on.
+
+ 
+
+What fields do we need to create in Salesforce?
+In the Salesforce account object:
+
+mk_customer_fit_score__c: Type: Number, Precision: 18, Scale: 0
+mk_customer_fit_segment__c: Type: "Text", Length: 255
+mk_customer_fit_signals__c: Type: LongTextArea, Length: 1024, VisibleLines: 10
+mk_customer_fit__c: Type: Formula  (then select Text at the next step)
+CASE(mk_customer_fit_segment__c,
+'very good', IMAGE("https://cdn.madkudu.com/images/star.png", "Star", 20, 20) + IMAGE("https://cdn.madkudu.com/images/star.png", "Star", 20, 20) + IMAGE("https://cdn.madkudu.com/images/star.png", "Star", 20, 20),
+'good', IMAGE("https://cdn.madkudu.com/images/star.png", "Star", 20, 20) + IMAGE("https://cdn.madkudu.com/images/star.png", "Star", 20, 20),
+'medium', IMAGE("https://cdn.madkudu.com/images/star.png", "Star", 20, 20),
+IMAGE("https://cdn.madkudu.com/images/cross.png", "Star", 20, 20))
+
+
+Account Likelihood to Buy
+
+The Account Likelihood to Buy model (or "Account LTB") model is designed to help you identify the most active accounts or accounts showing the highest engagement. This product is most suited for Enterprise sales teams (teams going after enterprise accounts) or PLG account-based motions, to help them prioritize accounts based on their level of activity.
+
+Pre-requisites
+Subscription to MadKudu Enterprise plan
+Use Salesforce as a CRM
+Currently, MadKudu can only push an Account Likelihood to Buy to Salesforce Account object
+Customers with HubSpot as a CRM cannot have an Account LTB model
+Have at least one source of behavioral data integrated
+Salesforce campaigns, Marketo, Eloqua, Segment, Amplitude, Mixpanel, HubSpot
+What is the Account LTB model for?
+Looking only at your most active user can hit limitations https://www.youtube.com/watch?v=r4BobnE5sX4
+
+ 
+
+Sales
+
+Inbound account prioritization: identifying out of your best fit accounts which ones show the highest level of engagement ready to purchase. 
+Outbound account prioritization (when external intent data included): identifying out of accounts visiting your website or other websites which ones are ready to buy 
+Marketing
+
+Marketing campaign segmentation: identifying the accounts least active to increase engagement before sending to Sales
+What is the Account LTB model?
+The Account LTB model aims at scoring accounts based on the aggregated behavior of all the users explicitly attached to the account and orphan* users with the same domain as the account, where an account is defined by its account ID.
+
+The Account LTB model is only based on Behavioral data and does not include any firmographic data. For firmographic-based Account scoring, please refer to the Account Fit. 
+
+The model learns from the past activity of accounts before they convert, in order to separate accounts that are on the path to conversion from cold accounts.
+
+*orphan users = emails from any of your systems (Salesforce, Hubspot, Marketo, Segment, Data Warehouse...) that are not linked to a Salesforce account ID but have a matching domain 
+
+ 
+
+What data does the Account LTB model use?
+The Account LTB model scores accounts based on behavioral and intent data
+
+inbound behavioral data (web visit, product usage, email activity, sales interaction)
+intent = behavioral data observed on other websites and provided by 3rd party (g2crowd, bombora, PredictLeads ...). This data is usually available at the domain level, not at an individual level (email). Learn more about how to integrate Intent data into your Account LTB model.
+What is the output of the Account LTB model? 
+mceclip0.png
+
+Score
+The Account LTB score is based on the activity of all the users explicitly attached to the account via the account ID and the users not attached but with a domain matching the account domain. 
+The Account LTB score is a number between 0 and 100, and is updated every 4 hours with new activities, and decays over time without new activity, based on a 90-day decay.
+The Account LTB model only scores accounts active in the last 90 days*, and defaults to Low the others.
+*An account is considered active for a give period of time as soon as 1 person associated to the account has performed 1 event within that time period.
+
+Segment
+The Account LTB segments represent 4 buckets of score.
+
+Very high segment : scores from 85 to 100
+High segment : scores from 70 to 84
+Medium segment : scores from 50 to 69
+Low segment : scores from to 0 to 49
+Signals
+Similar to the Lead LTB model, MadKudu surfaces the recent event stream and some aggregations you may want to display, such as:
+
+Number of active user(s) in the last 90 days
+Number of occurrences of events in the last 90 days (within a character limit of 512 in Salesforce)
+MadKudu fields
+MadKudu pushes to the following fields
+
+Field Label: MK Likelihood to Buy Segment
+Field API Name: mk_likelihood_to_buy_segment__c
+Field Label: MK Likelihood to Buy Score
+Field API Name: mk_likelihood_to_buy_score__c
+Field Label: MK Likelihood to Buy Signals
+Field API Name: mk_likelihood_to_buy_signals__c
+How often is the Likelihood to Buy score of an Account updated?
+The Account scoring works in batch only (no realtime scoring), and would update scores of the accounts in the scoring audience at every Sync process (every 4h to 12h depending on the volume of data and numbers of models running on the MadKudu platform). This applies for newly created accounts as well: they will get scored at the next Sync process.
+
+F.A.Q
+What is the pricing like?
+This will be an add-on to your MadKudu plan that includes a variable component according to your volume of leads. Contact your Customer Success Manager for more details.
+
+ 
+
+How to enable this?
+Contact your Customer Success Manager at support@madkudu.com to enable this use case.
+
+ 
+
+What fields do we need to create in Salesforce?
+In the Salesforce account object:
+mk_likelihood_to_buy_segment__c: Type: "Text", Length: 255
+mk_likelihood_to_buy_score__c: Type: Number, Precision: 18, Scale: 0
+mk_likelihood_to_buy_signals__c: Type: LongTextArea, Length: 1024, VisibleLines: 10
+mk_likelihood_to_buy__c: Type: Formula (then select Text at the next step)
+IMAGE("https://cdn.madkudu.com/images/fire.png","",0,0) + CASE(mk_likelihood_to_buy_segment__c ,
+'very high', IMAGE("https://cdn.madkudu.com/images/fire.png", "Fire", 20, 20) + IMAGE("https://cdn.madkudu.com/images/fire.png", "Fire", 20, 20) + IMAGE("https://cdn.madkudu.com/images/fire.png", "Fire", 20, 20),
+'high', IMAGE("https://cdn.madkudu.com/images/fire.png", "Fire", 20, 20) + IMAGE("https://cdn.madkudu.com/images/fire.png", "Fire", 20, 20),
+'medium', IMAGE("https://cdn.madkudu.com/images/fire.png", "Fire", 20, 20),
+IMAGE("https://cdn.madkudu.com/images/snowflake.png", "Snowflake", 20, 20))
+
+
+What are the different scores?
+
+How do I see MadKudu Intelligence?
+If you are on a Pro Plan, you have 3 Lead/Contact level models (more details about the models here). 
+
+the Customer Fit model
+the Likelihood to Buy model
+the Lead Grade
+If you are on a Growth Plan, you will have one model, the Customer Fit model at the Lead/Contact level.
+
+You may also upgrade your subscription with Account level scoring (for Salesforce only)
+
+The Account Fit (Customer Fit)
+The Account Engagement (Likelihood to Buy) + Most Likely Persona
+ 
+
+For each model, we push 3-4 fields to your CRM: 
+
+a segment
+a score: integer from 0 to 100 in case you need more granularity than the segment
+some emojis (nicer than words to display to your SDRs - Salesforce only)
+some signals : these are a list of positive and negative reasons that explain why the lead has been scored this way. These reasons are not exclusive but they give the Sales team some visibility and context.
+
+What are the names of these fields?
+To find the exact standard name in each system, please refer to this documentation.
+
+What's the link between the segments and the scores? 
+Customer Fit model 
+
+⭐️⭐️⭐️  Very good segment: scores from 85 to 100
+⭐️⭐️      Good segment: scores from 70 to 84
+⭐️          Medium segment: scores from 50 to 69
+❌          Low segment: scores from 0 to 49
+Likelihood to Buy model 
+
+🔥🔥🔥  Very high segment: scores from 85 to 100
+🔥🔥      High segment: scores from 70 to 84
+🔥          Medium segment: scores from 50 to 69
+❄️          Low segment: scores from 0 to 49
+Lead Grade
+
+A: scores from 90 to 100
+B: scores from 75 to 89
+C: scores from 50 to 74
+D: scores from 25 to 49
+E: scores from 1 to 24
+What does it look like in my CRM?
+Here is an example of what the fields can look like in Salesforce.
+
+
+What are the MadKudu field type requirements?
+For exact specifications of the fields to create, please refer to these field specifications.
+
+Do I have to display all these fields?
+You can decide which fields you would like to display for your CRM users, based on the level of information you want to provide and the usage you make of the models.
+Very often, customers use the Customer Fit model to make a first filter and then the Lead Grade to prioritize, among the qualified leads, the ones that are the most engaged.
+
+Can I rename the standard MadKudu attributes?
+This is possible only if you are on the Enterprise plan. We strongly recommend the use of the “mk_ prefix” naming convention. It allows you to always know which fields are populated by MadKudu and which are not.
+
+Can I add aggregated behavioral attributes?
+Yes, this is possible if you are on the Enterprise plan. MadKudu syncs a wide variety of attributes into your CRM. For example, you can create a “number of users invited” aggregation that calculates how many users were invited. This aggregation is then synced to your salesforce lead profile.
+
+Can the MadKudu team help with adding these Salesforce fields?
+Yes - this is a key step in your onboarding and will be discussed with your Customer Success team.
+
+Where do I set up the mapping of MadKudu Intelligence to my Salesforce fields?
+You can do this in MadKudu's App, under Settings > Push
+
+More details here >> How to push MadKudu Intelligence to your integrations?
+
+Enrichment
+
+Definition
+Enrichment on MadKudu platform includes firmographic, demographic and technographic data coming from
+
+first-party data from your internal systems (CRM, Marketing Automation...)
+e.g. team size you collect on the sign up form, company size your sales team adjusts after getting on a call with the prospect
+third-party data from vendors you contract directly with
+MadKudu gets this data through the systems you integrated with our platform.
+e.g. ZoomInfo, FunnelBeam, Clearbit, Intricately ...
+third-party data from vendors MadKudu partners with to use to provide scoring or segmentation to our customers.
+MadKudu partners with Clearbit, HG data and PredictLeads in addition to creating custom enrichment (spam detector, predicted revenue or predicted traffic ...)
+It transforms each new email or domain into a complete person or company profile, enriching your customer understanding, and giving your team the context necessary to take action.
+
+First-party data that is qualified to be used in your customer fit model(s) is demographic, firmographic, or technographic data that is stable in time, especially through the opportunity funnel. You only want to use fields that are populated at the creation of the lead/contact. Don’t use fields that are filled in (manually or automatically) as the opportunity moves through the funnel, since that will introduce a major bias in the model(s). MadKudu typically recommends to use enrichment such as country, industry, company size, title, if you have that.
+
+Use cases
+Enrichment can be used to
+
+determine if a Person or Company is a good fit for you through the Customer Fit scoring. Learn more.
+segment your leads or accounts with a computation directly exported to your CRM
+e.g. you would like to identify if an account in using a competitor solution. With MadKudu you can build a computation based on technographic data like: "is_using_competitor" which parses the techs a company is using Learn more
+What enrichment providers do MadKudu work with? 
+MadKudu partners with the following leaders in demographics, firmographics and technographics data
+
+Clearbit: turns email addresses and domain names into full prospect and company profiles with more than 85 demographic, firmographic and technographic data points.  Learn more.
+HG Insights (formerly HG Data): global leader in technology intelligence, providing behind the firewall Technology Install Data to help you segment your prospect based on their company tech stack. Learn more
+PredictLeads: provides Hiring data to help you identify which companies are growing and hiring in the role fit for your product.  Learn more. 
+MadKudu gets fresh data from these providers on a monthly basis.
+
+F.A.Q
+Does MadKudu resell data?
+No, MadKudu partners with data vendors to use in segmentation and predictions but does not resell or sync raw data directly to your CRM. Only predictions and segmentations built on top of this data can be pushed directly to your CRM.  
+
+What are the different models?
+
+Overview
+Prediction models in Madkudu can help route and prioritize either people (leads & contacts) or companies (accounts).
+
+MadKudu offers 2 main categories of prediction models: 
+
+the Customer Fit model
+helps answer "who is this person?", "is the company they work for a good fit?"
+the Likelihood to Buy model (Behavioral)
+helps answers "how are they using our product?", "what actions are most correlated to conversion?", "is now a good time to reach out?"
+The third category of prediction models, the Lead Grade, is simply a combination of the two others.
+
+
+The Customer Fit model (demographic)
+Uses firmographic and demographic data — which allows you to check whether or not a lead or account matches your ideal customer profile (Who is this lead? Does this lead look qualified?). Because the model uses firmographic and demographic data as input, the scores will not change much over time. 
+
+The Likelihood to buy model (behavioral)
+Utilizes your behavioral data (in-app usage, website activity, marketing campaigns, etc.) to measure engagement of the lead or account (What has this lead been doing recently? Has the lead tried to engage with you?). Because the input of the model uses behavioral data, the scores are recomputed several times throughout the day. The behavioral score is all about timing.
+
+The Lead Grade
+Combines both Customer Fit and the Behavioral components. It enables you to identify the leads that are the most qualified and the most engaged. Because the Lead Grade has a behavioral component, it is also recomputed several times a day. Learn more about lead grades here.
+
+Batch versus Real time scoring in your integrations
+
+MadKudu can send scores to your integrations of choice. We integrate with half a dozen of integrations in which we’ll send predictions and segmentation to your Contacts or Accounts profiles. Learn more about our integrations.
+
+We push scores in two different ways:
+
+Real-Time: records are scored within 5-15 minutes of their creation in your CRM.
+Batch: a record's score is updated every 4-12 hours (time is dependent on the amount of data) with any new information or activity. 
+ 
+
+Supported Destinations
+Destination	Object	Realtime (Fit model)	Batch
+Salesforce	Lead, Contact, Account	✅(not for accounts)	✅
+HubSpot	Contact	✅	✅
+Marketo	Contact	✅	✅
+Eloqua	Contact	✅	✅
+Segment	Identify	❌	✅
+Intercom	Lead, User	✅	❌
+Amazon S3	Contact	❌	✅
+To begin sending scores to a new destination, connect your system to MadKudu in app.madkudu.com > Integrations and reach out to your customer success manager so that we can enable the right sync configuration on our end for you.
+
+ 
+
+What models for what type of scoring?
+The Customer Fit scores can be pushed both in real-time and batch scoring at the Lead and Contact level
+The Likelihood to Buy scores are only available in batch scoring, since it takes some time to collect activity data before making predictions 
+The scoring of Salesforce Accounts is only available in batch scoring for Fit or Likelihood to Buy score 
+When does MadKudu update records? 
+In Salesforce for example: 
+
+Few minutes after the creation of a Lead/Contact in Salesforce, MadKudu will update the mk_customer_fit_* fields. This is the "realtime scoring" of the Customer Fit model. 
+Every 4-12h, MadKudu will update all the mk_* fields of Lead/Contact and Account if there is any update to push. This is the "batch scoring" for all the models. 
+the MK Customer Fit fields will rarely change over time unless there is a model update 
+the MK Likelihood to Buy and MK Lead Grade fields will likely change every day, as these fields contain the behavioral score, and some leads, contacts, and accounts have daily activity. Additionally, in the absence of activity, the score decreases over time on a daily basis. 
+This schedule is not fixed, this is a continuous process (Learn more here) 
+When a new version of a model is deployed from the Data Studio by your admin (or by our team upon request), expect more records to be updated especially if a new Customer Fit model is deployed. When a model is deployed, the updates will occur in batch scoring at the next sync process. 
+Rate Limiting
+Realtime scoring (MadKudu API rate limit)
+
+If we pull from your integrations more than 500 new records to score within a 5 minute period, MadKudu real-time scoring will queue any additional events and process those at a slower rate.
+
+Batch scoring (Destination rate limit)
+
+To guarantee the performance of their system, destination integrations (e.g. Salesforce, Marketo, Hubspot, Segment, ...) limit the number of API calls that they can process in a given timeframe. This is called rate limiting, which cannot be controlled by MadKudu 
+
+The consequence of that is that the sync of large volumes of data cannot be instantaneous. For example, if you load a list of 100,000 leads in one go in your CRM, this will impact how fast leads can be scored by MadKudu in your CRM.
+
+Here are the rate limits of some of our integrations:
+
+
+Retries
+When the push of scores in batch to a destination fails (because of the integration rate-limiting described above or any other reason outside of MadKudu's control) MadKudu will attempt 9 more times to score the record within the following 2 hours. 
+
+ 
+
+F.A.Q
+I have a lot of volume, what can we do about it?
+It can become challenging to sync over 100k+ daily active users (DAU) with a CRM like Salesforce. That’s because:
+
+With Likelihood to Buy, we need to update scores as regularly as possible to make sure they’re up-to-date for your team to reach out to "ready to buy" prospects.
+We may hit daily rate limits from Salesforce (which results in delays in syncing).
+We’ve worked before with huge volumes of data so we’ll make sure to prepare a plan on how we can work with your current volume.
+
+Why aren't all of my leads synced to my integrations?
+Several things could be happening:
+
+We’ve been hitting API Quotas (see above for rate limiting) so we’re delaying the update.
+We apply filters on which leads are being sent to your integrations.
+On this last point, please reach out to your account manager and we’ll go through these filters together to make sure that they fit your needs.
+
+What if I need to upload a large list?
+Want to upload a large list of records to your CRM?
+
+You can either get the scores
+
+before uploading the list to your CRM using the MadKudu Bulk Scorer on a CSV file (only for customer fit score). 
+after uploading the list to your CRM and the sync process will start scoring the new records as described above in this article.
+The time it takes to score the list of records depends on the number of records in it.
