@@ -14,7 +14,7 @@ First and foremost, contrary to other models like Chat GPT or others, Gemini API
 I tried to gather as much data as possible from the MadKudu customer support [website](https://support.madkudu.com/). I used firstly, web scraping to scrape data from the website, but it kept blocking me from doing it. 
 Further, I tried to collect URLs of different sections in the website and put them into an Excel and loop over the it so that Gemini can extract information from every URL using the Python method "SimpleWebPageReader", but it wasn't efficient, the model wasn't responding well. Afterwards, I tried some PDFs on the model to conclude on its performance, and observed that it is really good when reading PDFs. I concluded also that txt files are also an optimal option, tested it, and concluded its efficiency.
 
-For the sake of demonstration, I dind't collect all sections' data in the website. So it can now answer some of the questions based on collected data, and it the model responds really well to any related clients' questions as shown in the video.
+For the sake of demonstration, I dind't collect all sections' data in the website. So it can now answer some of the questions based on collected data, and the model responds really well to any related clients' questions as shown in the video.
 
 
 
