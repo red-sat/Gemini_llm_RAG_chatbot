@@ -1,7 +1,10 @@
 # Creation of Retrieval Augmented Generation (RAG) chatbot using Google's Gemini pro Large Language Model and LlamaIndex 🦙
 
 
-![Untitledvideo-MadewithClipchamp-ezgif com-video-to-gif-converter](https://github.com/red-sat/Gemini_llm_RAG_chatbot/assets/138263131/8d7bf2a7-0dbc-4404-bc6b-82b9b449880a)
+
+https://github.com/red-sat/Gemini_llm_RAG_chatbot/assets/138263131/6d35042e-5213-4360-b34c-7f5aebd35ccd
+
+
 
 
 This repository showcases a Retrieval-augmented Generation (RAG) pipeline implemented using the llama_index library for Windows. The pipeline incorporates the Gemini pro model, Gemini embedding, and the streamlit library as a user interface. For demonstration, the dataset consists of some information about the customer support [website](https://support.madkudu.com/).
