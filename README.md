@@ -16,6 +16,5 @@ Further, I tried to collect URLs of different sections in the website and put th
 
 For the sake of demonstration, I dind't collect all sections' data in the website. So it can now answer some of the questions based on collected data, and the model responds really well to any related clients' questions as shown in the video.
 
-
-
-
+### The Streamlit User Interface 
+I tried to build a ChatGPT-like app, hence I used the Streamlit library to make a user interface as shown in the gif above. It conserves the clients' chat history and responds correspondly and efficiently to every question.
