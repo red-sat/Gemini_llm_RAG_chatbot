@@ -12,7 +12,7 @@ This repository showcases a Retrieval-augmented Generation (RAG) pipeline implem
 What is RAG? 🔍
 Retrieval-augmented generation (RAG) for large language models (LLMs) seeks to enhance prediction accuracy by leveraging an external datastore during inference. This approach constructs a comprehensive prompt enriched with context, historical data, and recent or relevant knowledge.
 
-### Explanations of why did I chose Gemini as a LLM
+### Explanations of why I chose Gemini as a LLM
 
 First and foremost, contrary to other models like Chat GPT or others, Gemini API is free to use, its documentation on LlamaIndex is clear and it is a state-of-the-art renowned performant large language model, hence it was an optimal experience to me. I encountered a big problem midway, since Gemini API isn't available in France, thus I had to use a VPN so as to run my code locally.
 
