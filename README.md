@@ -2,7 +2,10 @@
 
 
 
-https://github.com/red-sat/Gemini_llm_RAG_chatbot/assets/138263131/6d35042e-5213-4360-b34c-7f5aebd35ccd
+
+https://github.com/red-sat/Gemini_llm_RAG_chatbot/assets/138263131/5e15fa05-9690-4379-a335-87b931164b91
+
+
 
 
 
