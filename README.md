@@ -1,4 +1,4 @@
-# Creation of Retrieval Augmented Generation (RAG) chatbot using Google's Gemini pro Large Language Model and LlamaIndex 🦙
+# Creation of Retrieval Augmented Generation (RAG) chatbot using Google's Large Language Model Gemini pro and LlamaIndex 🦙
 
 
 
