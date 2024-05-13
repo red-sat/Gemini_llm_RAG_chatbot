@@ -5,17 +5,11 @@ import os
 import time
 logging.basicConfig(stream=sys.stdout, level=logging.INFO)
 logging.getLogger().addHandler(logging.StreamHandler(stream=sys.stdout))
-from llama_index.core.evaluation import DatasetGenerator, RelevancyEvaluator
 
 import qdrant_client
-from IPython.display import Markdown, display
-from llama_index.core import SimpleDirectoryReader, VectorStoreIndex, Response, ServiceContext, load_index_from_storage, StorageContext
-
+from llama_index.core import SimpleDirectoryReader, VectorStoreIndex, ServiceContext
 from llama_index.embeddings.gemini import GeminiEmbedding
-
 from llama_index.llms.gemini import Gemini
-from llama_index.llms.openai import OpenAI
-from llama_index.readers.web import SimpleWebPageReader
 reader = SimpleDirectoryReader(input_files=["./MadKudu_dataset.txt"])
 documents = reader.load_data()
 logging.basicConfig(stream=sys.stdout, level=logging.INFO)
